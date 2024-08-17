@@ -138,6 +138,7 @@ button {
 
 }
 .quote-signature {
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: end;
@@ -145,12 +146,43 @@ button {
 
 }
 
-.container.signup {
+.container-signup {
     display: flex;
+    padding: 50px 150px;
+    justify-content: center;
     /* flex: 1; */
+}
+
+.signup {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 5px;
+    gap: 50px;
+
+}
+
+.signup .header {
+    font-size: 18px;
+    font-weight: bold;
+}
+.signup div {
+    color: #E5E7EB;
+    text-wrap: nowrap;
+}
+
+.signup button {
+    align-self:center;
+    border: solid 2px;
 }
 
 .container.footer {
     display: flex;
     flex: 0;    
+    padding: 20px;
+    justify-content: center;
+    background: #1F2937;
+    color: #E5E7EB;
 }
