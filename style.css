@@ -55,8 +55,8 @@ a {
     text-decoration: none;
 }
 .logo {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
 }
 
 button {
@@ -154,13 +154,13 @@ button {
 }
 
 .signup {
-    padding: 20px 20px;
+    padding: 30px 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: #3882F6;
     border-radius: 5px;
-    gap: 50px;
+    gap: 100px;
 
 }
 
